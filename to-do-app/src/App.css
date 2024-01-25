@@ -1,0 +1,98 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+*{
+  margin: 0;padding: 0;
+}
+#head{
+  margin: auto;
+  width: 45%;
+  border: 1px solid black;
+  padding: 10px 5px;
+}
+
+
+body {
+  background-image: url(./assets/bgg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  form input, form select, form input[type="checkbox"] {
+    background: transparent !important;
+    padding: 5px !important;
+    border: 1px solid black !important;
+  }
+  h1{
+    margin: auto;
+    width: 26%;
+    font-size: 100px;
+    margin-top: 250px;
+    color: rgb(4, 144, 144);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #head button {
+    padding: 4px;
+    background: transparent;
+  
+  }
+form{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#main{
+  border: 1px solid Black;
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  padding: 5px;
+}
+#main button {
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  width: 4em;
+  background: transparent;
+  margin: auto;
+}
